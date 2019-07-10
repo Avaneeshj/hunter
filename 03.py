@@ -8,4 +8,4 @@ for i in range(n):
 if(len(b)==0):
     print("-1")
 else:
-    print("".join(map(str,b)))
+    print(" ".join(map(str,b)))
