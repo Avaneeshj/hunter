@@ -1,4 +1,4 @@
-a=int(input())
+aj=int(input())
 b=list(map(int,input().split()))
 l=[]
 m=[]
@@ -11,7 +11,7 @@ while(c<100000):
 while(d<100000):
     m.append(d)
     d+=2
-for i in range(a):
+for i in range(aj):
     if((b[i] in l) and (i in m)):
         n.append(b[i])
     elif((b[i] in m) and (i in l)):
