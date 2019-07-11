@@ -16,4 +16,4 @@ for i in range(a):
         n.append(b[i])
     elif((b[i] in m) and (i in l)):
         n.append(b[i])
-print(n)
+print("".join(map(str,n)))
