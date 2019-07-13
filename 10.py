@@ -8,8 +8,6 @@ if a>b:
             e+=1
         else:
             e=0
-else:
-    print("NO")
 if(e==b):
     print("YES")
 else:
