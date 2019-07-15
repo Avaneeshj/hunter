@@ -1,0 +1,10 @@
+a,b=map(int,input().split())
+c=0
+d=1
+while(d>0):
+    if(a-b)>=0:
+        a-=b
+        c+=1
+    if(a-b<0):
+        d=0
+print(c)
