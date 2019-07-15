@@ -11,7 +11,6 @@ f=0
 for i in range(h):
     e=c%10
     d.append(e)
-    print(d)
     c=int(c/10)
 if(d[:]==d[::-1]):
     print("YES")
