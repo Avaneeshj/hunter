@@ -1,6 +1,6 @@
 a=list(input())
 b=0
-i=[".","c","o","m"]
+i=["@","g","m","a","i","l",".","c","o","m"]
 if "@" and "." in a:
     c=a.count("@")
     d=a.index("@")
@@ -9,7 +9,7 @@ if "@" and "." in a:
 if(c==1 and e==1):
     g=f-d
     if(g>3 and d>2):
-        h=a[-4:]
+        h=a[-10:]
         if(i==h):
             b+=1
 if(b>0):
