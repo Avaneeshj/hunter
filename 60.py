@@ -1,0 +1,11 @@
+a=int(input())
+b=list(map(int,input().split()))
+c=list(map(int,input().split()))
+d=[]
+f=b
+e=0
+while(d!=c):
+    f=f[1:]+f[:1]
+    e+=1
+    d=f
+print(e)
