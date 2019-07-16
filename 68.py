@@ -1,0 +1,7 @@
+a=int(input())
+b=list(map(int,input().split()))
+c=max(b)
+d=min(b)
+e=b.index(c)
+f=b.index(d)
+print(f+1,e+1)
