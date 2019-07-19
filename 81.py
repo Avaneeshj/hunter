@@ -1,7 +1,7 @@
 a=int(input())
 d=0
 e=[]
-for i in range(a):
+for i in range(0,a+1):
     if(len(str(i))==1):
         d+=1
     else:
