@@ -7,7 +7,6 @@ while(len(c)>0):
         e=int(d//2)
         print(c[e])
         c.remove(c[e])
-        print(c)
     elif(d%2==0):
         f=int(d//2)
         g=f-1
